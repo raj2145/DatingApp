@@ -1,0 +1,12 @@
+body{
+    background-image: -moz-linear-gradient(yellow, red);
+    padding: 100px;
+}
+h1{
+    color: brown;
+
+}
+.dl{
+    padding: 100px;
+    border: 10cm;
+}
