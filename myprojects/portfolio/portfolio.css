@@ -1,0 +1,65 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100dvh;
+    width: 100%;
+   background: url(./image/laptop.jpg) no-repeat;
+    background-size: cover ;
+}
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav a:hover{
+    color: red;
+}
+.portfolio{
+    margin-right: 550px;
+}
+.main{
+    height: 100vh;
+}
+.main-text{
+ 
+    color: white;
+    display: flexbox;
+   margin-top: 200px;
+   margin-left: 100px;
+
+}
+.main-text h4{
+    margin-top: 10px;
+}
+.btn{
+    height: 40px;
+    width: 150px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    margin-top: 15px;
+}
+.btn:hover{
+background-color: green;
+    border: 1px solid green;
+}
+.btn-contact{
+height: 40px;
+width: 150px;
+background-color: transparent;
+color: white;
+border-radius: 40px;
+border: 1px solid red;
+transition: 0.7s;
+}
+.btn-contact:hover{
+    background-color:green;
+    border: 1px solid green;
+}
