@@ -1,0 +1,179 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+}
+.header{
+    height: 80px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:70px ;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    margin-left: 80px;
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: #6739b7;
+  
+}
+.nav img{
+    background-color: white;
+    height: 80px;
+}
+.main{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    background-image: url(./image/hp-banner-pg.jpg);
+}
+.hero-section{
+    background-image: url(./image/hp-banner-pg.jpg);
+}
+.footer{
+    height: 100vh;
+    display: flex;
+}
+ .box1{
+    width: 200px;
+    height: 100vh;
+   
+}
+.box1 img{
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box1 h1{
+    position: absolute;
+    top: 111px;
+    left: 204px;
+    font-size: 73px;
+    color:#6739b7;
+}
+.box1 h3{
+    position: absolute;
+    top: 198px;
+    left: 157px;
+    font-size:25px ;
+    color: #6739b7;
+}
+.box1 h4{
+    position: absolute;
+    top: 280px;
+    left: 157px;
+   font-size:18px ;
+    color: #6739b7;
+    font-weight: 300;
+}
+.box1 button{
+    position: absolute;
+    top: 326px;
+    left: 157px;
+    font-size:15px ;
+    border: none;
+    color:white;
+    border-radius: 29px;
+    padding: 10px 27px;
+    background-color:#6739b7;
+}
+.box1 p{
+    font-size: 100px;
+    color: gray;
+}
+.box1 p{
+    position: absolute;
+    top: 170px;
+    left: 155px;
+    font-size: 20px;
+}
+.box2{
+    width: 200px;
+    font-weight: 100;
+ 
+height: 100vh;
+
+  
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.box3{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    
+    height: 100vh;
+}
+
+.box4{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    height: 100vh;
+}
+
+
+.box5{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    height: 100vh;
+}
+
+.box6{
+    width: 200px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 100vh;
+}
+.box7{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+.box7 img{
+    margin-right: 20px;
+}
+.box7 h3{
+align-items: center;
+}
+.download{
+    background: transparent;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.social-media p{
+    margin-right: 500px;
+ 
+    font-weight: 100;
+}
+.social-media a{
+    margin-right:-196px;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 190px;
+    padding: 9px 15px;
+    color: white;
+    position: relative;
+    bottom: 50px;
+}
